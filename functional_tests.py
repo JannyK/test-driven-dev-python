@@ -18,7 +18,6 @@ class NewVisitTestCase(unittest.TestCase):
 		self.assertIn('To-Do', self.browser.title)
 		self.fail('Finish the test')
 
-
 		# She is invited to enter a todo item straight away
 
 if __name__ == '__main__':
